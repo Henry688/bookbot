@@ -1,6 +1,6 @@
-from stats import get_book_words_count
+from stats import get_book_words_count, count_unique_characters
 
 def main():
-    get_book_words_count("./books/frankenstein.txt")
+    count_unique_characters("./books/frankenstein.txt")
 
 main()
